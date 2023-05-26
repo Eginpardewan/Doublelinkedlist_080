@@ -43,6 +43,7 @@ void DoubleLinkedList::addNode() {
 	newNode->noMhs = nim; // step 2
 	newNode->name = nm; // step 2
 
+
 	/*insert a mode in the beginning of a doubly - Linked list*/
 	if (START == NULL || nim <= START->noMhs) {
 		if (START != NULL && nim == START->noMhs) {
