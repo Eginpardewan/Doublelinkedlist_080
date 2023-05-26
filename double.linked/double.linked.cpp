@@ -128,6 +128,7 @@ void DoubleLinkedList::traverse() {
 	}
 }
 
+
 void DoubleLinkedList::revtraverse() {
 
 	if (listEmpty()) {
